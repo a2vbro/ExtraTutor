@@ -1,4 +1,4 @@
-package com.ui
+package com.etui
 
 import android.app.Application
 import com.facebook.react.PackageList
