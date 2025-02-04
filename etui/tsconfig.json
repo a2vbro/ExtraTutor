@@ -5,22 +5,22 @@
     "allowSyntheticDefaultImports": true,
     "strictNullChecks": true,
     "baseUrl": "./",
-//    "paths": {
+   "paths": {
 //      "@components*": ["./components*"],
 //      "@global*": ["./global*"],
 //      "@hooks*": ["./hooks*"],
-//      "@services*": ["./services*"],
+       // "@services*": ["./services*"],
 //      "@context*": ["./context*"],
 //      "@typings*": ["./typings*"],
 //      "@helpers*": ["./helpers*"],
-//      "@screens*": ["./screens*"],
-//      "@container*": ["./container*"],
+        //"@modules*": ["./app/modules*"],
+//      "@containers*": ["./containers*"],
 //      "@locales*": ["./locales*"],
 //      "@styles*": ["./styles*"],
 //      "@icons*": ["./icons*"],
 //      "@mutations*": ["./mutations*"],
 //      "@mocks*": ["./mocks*"]
-//    }
+    }
   },
   "extends": "@react-native/typescript-config/tsconfig.json"
 }
