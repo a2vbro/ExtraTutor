@@ -8,7 +8,8 @@ export const styles = StyleSheet.create({
     height: '100%',
     flexDirection: 'column',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
+    marginTop: 25,
     gap: 8,
   },
   title: {

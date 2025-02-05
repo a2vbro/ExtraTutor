@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
-import {Button, Text, View} from 'react-native';
+import { Text, View} from 'react-native';
+import { Button } from '@rneui/themed';
 
 import {TConnectWalletComponentProps} from '../types';
 import {NavigationProp, useNavigation} from '@react-navigation/native';
