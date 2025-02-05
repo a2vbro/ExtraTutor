@@ -4,16 +4,16 @@ import { Platform } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import { Panel } from '../../app/modules/tutor/screens/panel';
+import { Panel } from '../../modules/tutor/screens/panel';
 
-import { ConnectWallet } from '../../app/modules/authorization/screens/connectWallet';
+import { ConnectWallet } from '../../modules/authorization/screens/connectWallet';
 import { SCREENS } from './constants';
-import {ParamList, TRootNavigationProps} from './types';
+import {ParamList, IRootNavigationProps} from './types';
 
 const Stack = createNativeStackNavigator();
 
 
-export const RootNavigation: FC<TRootNavigationProps> = ({ initialRouteName }) => {
+export const RootNavigation: FC<IRootNavigationProps> = ({ initialRouteName }) => {
 
   return (
     <NavigationContainer<ParamList>>

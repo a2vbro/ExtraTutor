@@ -5,7 +5,7 @@ import { TPanelProps } from '../types';
 import { styles } from './styles';
 import {Header} from '../../../../../components/Header';
 import {TopMenu} from '../../../../../components/TopMenu';
-import {SCREENS} from '../../../../../../services';
+import {SCREENS} from '../../../../../services';
 
 export const PanelComponent: FC<TPanelProps> = () => {
   return (

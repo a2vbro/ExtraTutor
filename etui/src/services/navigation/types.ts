@@ -5,6 +5,6 @@ export type ParamList = ParamListBase & {
   TUTOR_PANEL: Record<string, never>;
 };
 
-export type TRootNavigationProps =  ParamListBase & {
+export interface IRootNavigationProps {
   initialRouteName: string;
 }

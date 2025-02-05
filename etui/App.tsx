@@ -1,10 +1,10 @@
 
 import React from 'react';
-import { SCREENS, RootNavigation } from './services';
+import { SCREENS, RootNavigation } from './src/services/';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 
 
-function App(): React.JSX.Element {
+export default function App() {
 
 
   return (
@@ -13,5 +13,3 @@ function App(): React.JSX.Element {
     </SafeAreaProvider>
   );
 }
-
-export default App;

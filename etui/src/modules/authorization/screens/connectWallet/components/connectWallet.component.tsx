@@ -4,7 +4,7 @@ import { Button } from '@rneui/themed';
 
 import {TConnectWalletComponentProps} from '../types';
 import {NavigationProp, useNavigation} from '@react-navigation/native';
-import { ParamList, SCREENS } from '../../../../../../services';
+import { ParamList, SCREENS } from '../../../../../services';
 import { styles } from './styles';
 
 export const ConnectWalletComponent: FC<TConnectWalletComponentProps> = () => {
