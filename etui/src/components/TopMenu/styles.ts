@@ -24,4 +24,7 @@ export const styles = StyleSheet.create({
   item: {
    marginLeft: 10,
   },
+  activeItem: {
+    color: 'grey',
+  },
 });
