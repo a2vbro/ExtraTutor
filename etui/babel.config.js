@@ -26,7 +26,7 @@ module.exports = function(api) {
 // module.exports = function(api) {
 //   api.cache(true);
 //   return  {
-//     presets: [ ['@babel/preset-env', {targets: {node: 'current'}}],
+//     presets: [ ['@babel/preset-configuration', {targets: {node: 'current'}}],
 //       ['@babel/preset-react', {targets: {node: 'current'}}]],
 //     plugins: [
 //       '@babel/plugin-transform-class-static-block',
