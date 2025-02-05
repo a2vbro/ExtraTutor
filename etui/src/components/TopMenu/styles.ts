@@ -23,5 +23,5 @@ export const styles = StyleSheet.create({
   },
   item: {
    marginLeft: 10,
-  }
+  },
 });

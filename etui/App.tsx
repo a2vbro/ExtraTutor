@@ -8,7 +8,7 @@ export default function App() {
 
 
   return (
-    <SafeAreaProvider>
+    <SafeAreaProvider style={{ flex: 1, marginTop: 30 }}>
       <RootNavigation initialRouteName={SCREENS.CONNECT_WALLET} />
     </SafeAreaProvider>
   );

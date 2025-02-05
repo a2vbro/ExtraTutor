@@ -9,6 +9,7 @@ import { Panel } from '../../modules/tutor/screens/panel';
 import { ConnectWallet } from '../../modules/authorization/screens/connectWallet';
 import { SCREENS } from './constants';
 import {ParamList, IRootNavigationProps} from './types';
+import {Students} from '../../modules/tutor/screens/students';
 
 const Stack = createNativeStackNavigator();
 
@@ -31,6 +32,7 @@ export const RootNavigation: FC<IRootNavigationProps> = ({ initialRouteName }) =
       >
         <Stack.Screen name={SCREENS.CONNECT_WALLET} component={ConnectWallet} />
         <Stack.Screen name={SCREENS.TUTOR_PANEL} component={Panel} />
+        <Stack.Screen name={SCREENS.TUTOR_STUDENTS} component={Students} />
       </Stack.Navigator>
     </NavigationContainer>
   );

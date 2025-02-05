@@ -1,13 +1,14 @@
 import React, { FC } from 'react';
 import {Text, View} from 'react-native';
 
-import { TPanelProps } from '../types';
+import { TStudentsProps } from '../types';
 import { styles } from './styles';
 import {Header} from '../../../../../components/Header';
 import {TopMenu} from '../../../../../components/TopMenu';
 import {SCREENS} from '../../../../../services';
 
-export const PanelComponent: FC<TPanelProps> = () => {
+export const StudentsComponent: FC<TStudentsProps> = () => {
+
   const tutorMenuItems = [
     {title: 'Main', url: SCREENS.TUTOR_PANEL},
     {title: 'Students', url: SCREENS.TUTOR_STUDENTS},
@@ -18,7 +19,7 @@ export const PanelComponent: FC<TPanelProps> = () => {
       <Header title={'Tutor panel'} />
       <TopMenu items={tutorMenuItems} />
       <View>
-        <Text style={styles.title}>Tutor main panel content</Text>
+        <Text style={styles.title}>Students</Text>
       </View>
     </View>
   );
