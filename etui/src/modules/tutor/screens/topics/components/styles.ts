@@ -23,6 +23,7 @@ export const styles = StyleSheet.create({
   },
   item: {
     height: 50,
+    width: '70%',
   },
   itemContainer: {
     display: 'flex',

@@ -11,6 +11,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'flex-start',
     columnGap: 8,
+    marginTop: 20,
   },
   headerContainer: {
     width: '100%',

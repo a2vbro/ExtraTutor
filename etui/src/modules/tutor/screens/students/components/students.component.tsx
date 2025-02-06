@@ -1,21 +1,22 @@
 import React, { FC } from 'react';
-import {FlatList, ScrollView, Text, View} from 'react-native';
+import {Alert, FlatList, Text, View} from 'react-native';
 
 import { TStudentsComponentProps } from '../types';
 import { styles } from './styles';
 import { List } from 'react-native-paper';
 import {Button} from '@rneui/themed';
-import { FAB } from 'react-native-paper';
 
 
 export const StudentsComponent: FC<TStudentsComponentProps> = ({data}) => {
 
   const inviteHandler = () => {
       console.log('Student was invited');
+      Alert.alert('Student was invited successfully.');
   };
 
   const addHandler = () => {
     console.log('User was added');
+    Alert.alert('Student was added successfully.');
   };
 
 

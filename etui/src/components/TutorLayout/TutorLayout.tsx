@@ -17,6 +17,7 @@ export const TutorLayout: FC<TutorLayoutProps> = ({
   const tutorMenuItems = [
     {title: 'Main', url: SCREENS.TUTOR_PANEL},
     {title: 'Students', url: SCREENS.TUTOR_STUDENTS},
+    {title: 'Topics', url: SCREENS.TOPICS},
   ];
 
   return (
